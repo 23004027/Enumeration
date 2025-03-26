@@ -54,9 +54,6 @@ link: This operator allows you to search for pages that link to a specific URL. 
 
  
 #DNS Enumeration
-
-
-
 ##DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
@@ -66,26 +63,13 @@ Top level domain expansion
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/f4b509a9-3494-4cf5-a981-c5546ca6aadb)
 
-
-
-
-
-
 ## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 ![image](https://github.com/user-attachments/assets/2abe8a66-0ed3-4018-aa32-5622dc9aeda5)
-
-
-
 ## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
-
-
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
-
 select any username in the first column of the above file and check the same
-
-
 #Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
@@ -93,9 +77,6 @@ and issue appropriate commands
   
  ##Output
  ![image](https://github.com/user-attachments/assets/51e726c5-416f-4301-975a-e400b6b3197c)
- 
-  
-
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
