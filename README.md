@@ -29,28 +29,31 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
-![Screenshot 2025-03-15 091312](https://github.com/user-attachments/assets/9ca60315-6504-4218-ba8e-9867768107cd)
+![Screenshot 2025-03-15 091312](https://github.com/user-attachments/assets/9882782b-8537-4c81-9f8d-79544ae172dc)
+
 
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
-![image](https://github.com/user-attachments/assets/c11acf58-dcdf-43cb-9ca0-3d0fa7d2d75e)
-
+![Screenshot 2025-03-15 091356](https://github.com/user-attachments/assets/6585f766-da2d-4d5d-9229-d1fafa646543)
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-![image](https://github.com/user-attachments/assets/1318ee9f-e08d-4f22-b885-1b74cd05ea9d)
+![Screenshot 2025-03-15 091517](https://github.com/user-attachments/assets/0cc73da8-8d9b-42c7-8d9a-a152ad9b5da9)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
-![image](https://github.com/user-attachments/assets/fa009f86-18d4-46a7-97e4-c1ebbd4d3529)
+![Screenshot 2025-03-15 091639](https://github.com/user-attachments/assets/1766e7b4-1d11-4616-b0a5-9bcb50a540c8)
+
 
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-![image](https://github.com/user-attachments/assets/18f3bd31-bb7b-4e8e-a342-e6139b457800)
+![Screenshot 2025-03-15 091729](https://github.com/user-attachments/assets/ffb927df-e49c-47f1-815e-f4a4935a81f6)
+
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
-![image](https://github.com/user-attachments/assets/eba53b47-2d97-491e-96d7-40c3447b396a)
+![Screenshot 2025-03-15 091809](https://github.com/user-attachments/assets/a98261d4-c284-4dd5-81f4-9de2cab4a71b)
+
 
  
 #DNS Enumeration
